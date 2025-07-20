@@ -152,11 +152,20 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
-  app.post("/api/ai/chat", async (req, res) => {
+  // Conversations API
+  app.get("/api/conversations", async (req, res) => {
     try {
-      const { messages } = req.body;
-      const result = await aiOrchestrator.chatWithAI(messages);
-      res.json({ result });
+      // For demo purposes, return sample conversations
+      const conversations = [
+        {
+          id: '1',
+          title: 'محادثة تجريبية',
+          messages: [],
+          model: 'deepseek',
+          createdAt: new Date(),
+        }
+      ];
+      res.json(conversations);
     } catch (error) {
       res.status(500).json({ error: handleError(error) });
     }

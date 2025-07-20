@@ -6,12 +6,16 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
 import IDE from "@/pages/ide";
 import { DrxIdeMain } from "@/pages/DrxIdeMain";
+import { HomePage } from "@/pages/HomePage";
+import { ChatPage } from "@/pages/ChatPage";
 
 function Router() {
   return (
     <Switch>
-      <Route path="/" component={DrxIdeMain} />
-      <Route path="/ide" component={IDE} />
+      <Route path="/" component={HomePage} />
+      <Route path="/chat" component={ChatPage} />
+      <Route path="/ide" component={DrxIdeMain} />
+      <Route path="/old-ide" component={IDE} />
       <Route component={NotFound} />
     </Switch>
   );
