@@ -1,0 +1,15 @@
+
+DEEPSEEK_API_KEY="sk-94af74f2b4fe4e98a8b1ec389dc6ec4b"
+DEEPSEEK_API_URL="https://api.deepseek.com/chat/completions"
+DEEPSEEK_AP_MODEL="deepseek-reasone"
+GROQ_API_KEY="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"
+GROQ_API_URL="https://api.groq.com/openai/v1/chat/completions"
+GROQ_API_MODEL="qwen-qwq-32b"
+TOGETHER_API_KEY="1bce60114d699d9ab9cefe3fa0e6799d468c9653ed1859617672e2c686c7706b"
+TOGETHER_API_URL="https://api.together.xyz/v1/chat/completions"
+TOGETHER_API_MODEL="deepseek-ai/DeepSeek-V3"
+GEMINI_API_KEY="AIzaSyAcKAuJKw1kzOEJa-QHTtkTaFZyiXkJJLs"
+MODEL_ID="gemma-3n-e2b-it"
+GENERATE_CONTENT_API="streamGenerateContent"
+https://generativelanguage.googleapis.com/v1beta
+VERCEL_TOKEN="v1:dTXeCzlFAeW3nFdirpseWYRH:aKr3sxC0wlu6ZMkQCDJvXwYq
